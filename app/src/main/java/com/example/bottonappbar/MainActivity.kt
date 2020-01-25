@@ -20,8 +20,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val navController = findNavController(R.id.fragment)
 
+        toolbarHome.isActivated = true
+        setSupportActionBar(toolbarHome)
+
         // Set up ActionBar
         setSupportActionBar(bottomAppBar)
+
+
+
 
         click()
     }
