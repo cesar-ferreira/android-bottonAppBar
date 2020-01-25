@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_fav"
+        android:icon="@drawable/ic_format_list_bulleted"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_place"
+        android:title=""
+        app:showAsAction="ifRoom"/>
 
 </menu>
